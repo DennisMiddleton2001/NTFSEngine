@@ -163,7 +163,7 @@ typedef ATTRIBUTE_TYPE_CODE *PATTRIBUTE_TYPE_CODE;
 #define $REPARSE_POINT                   (0xC0)
 #define $EA_INFORMATION                  (0xD0)
 #define $EA                              (0xE0)
-#define $LOGGED_UTILITY_STREAM           (0x100) // defined in ntfsexp.h
+#define $LOGGED_UTILITY_STREAM           (0x100)
 #define $FIRST_USER_DEFINED_ATTRIBUTE    (0x1000)
 #define $END                             (0xFFFFFFFF)
 

@@ -16,8 +16,8 @@ VOID PrintVolumeDetails()
 	PrintAnyString(0,0, L"VOLUME: %s", pVolume->_szDeviceName);
 	PrintAnyString(0,0, L"====================================");
 }
-
-VOID PrintFileRecordDetails(PMFT_SEGMENT_REFERENCE pFrs)
+PrintFileRecordDetails
+VOID (PMFT_SEGMENT_REFERENCE pFrs)
 {
 	WCHAR * szPath;
 	if (!pVolume->FormatPathString(pFrs, &szPath))
