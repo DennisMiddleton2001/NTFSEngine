@@ -15,7 +15,8 @@ https://github.com/DennisMiddleton2001/Nfi
 
 Sample Output:
 -----------------------
-_FILE_RECORD_SEGMENT_HEADER  {
+
+    _FILE_RECORD_SEGMENT_HEADER  {
     _MULTI_SECTOR_HEADER MultiSectorHeader {
             UInt32     Signature             : 0x454c4946 "FILE"
             UInt16     SequenceArrayOffset   : 0x0030
@@ -37,7 +38,6 @@ _FILE_RECORD_SEGMENT_HEADER  {
         UInt64     SegmentNumber         : 0x0000000000000005  <\\FRS:00000005>
         UInt16     SequenceNumber        : 0x0005
     }
-}
 
     _ATTRIBUTE_RECORD_HEADER  {            $STANDARD_INFORMATION:"" (<\\STR:00000005:10:>)
         UInt32     TypeCode              : 0x00000010
